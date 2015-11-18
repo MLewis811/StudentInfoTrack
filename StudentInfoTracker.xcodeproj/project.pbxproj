@@ -6,11 +6,46 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		48BCD9471BF5236F0080F434 /* canvas_funcs.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = canvas_funcs.php; sourceTree = "<group>"; };
+		48BCD9481BF5237B0080F434 /* get_canvas_enrollments.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = get_canvas_enrollments.php; sourceTree = "<group>"; };
+		48BCD9491BF523870080F434 /* jmc_funcs.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = jmc_funcs.php; sourceTree = "<group>"; };
+		48BCD94A1BF523870080F434 /* jmcquery.php */ = {isa = PBXFileReference; indentWidth = 3; lastKnownFileType = text.script.php; path = jmcquery.php; sourceTree = SOURCE_ROOT; tabWidth = 3; };
+		48BCD94B1BF523870080F434 /* mydb_funcs.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = mydb_funcs.php; sourceTree = "<group>"; };
+		48BCD94C1BF523870080F434 /* updateusers.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = updateusers.php; sourceTree = "<group>"; };
+		48BCD94F1BF524880080F434 /* canvas.token */ = {isa = PBXFileReference; lastKnownFileType = text; path = canvas.token; sourceTree = "<group>"; };
+		48E6018A1BFA813600161B26 /* get_canvas_assignments.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = get_canvas_assignments.php; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		48BCD9401BF5233C0080F434 = {
 			isa = PBXGroup;
 			children = (
+				48BCD94E1BF5245E0080F434 /* Supporting Files */,
+				48BCD94D1BF523D30080F434 /* Connection Functions */,
+				48BCD94A1BF523870080F434 /* jmcquery.php */,
+				48BCD9481BF5237B0080F434 /* get_canvas_enrollments.php */,
+				48E6018A1BFA813600161B26 /* get_canvas_assignments.php */,
+				48BCD94C1BF523870080F434 /* updateusers.php */,
 			);
+			sourceTree = "<group>";
+		};
+		48BCD94D1BF523D30080F434 /* Connection Functions */ = {
+			isa = PBXGroup;
+			children = (
+				48BCD9471BF5236F0080F434 /* canvas_funcs.php */,
+				48BCD9491BF523870080F434 /* jmc_funcs.php */,
+				48BCD94B1BF523870080F434 /* mydb_funcs.php */,
+			);
+			name = "Connection Functions";
+			sourceTree = "<group>";
+		};
+		48BCD94E1BF5245E0080F434 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48BCD94F1BF524880080F434 /* canvas.token */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
